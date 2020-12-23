@@ -10072,7 +10072,7 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: black;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10101,10 +10101,15 @@ img::-moz-selection {
     height: 2rem;
     transition: height 0.3s ease-in-out;
   }
+
+
+
+
+  /*ESTAS SON LAS CLASES QUE SE AGREGAN CUANDO SE BAJA EN EL NAVBAR*/
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #97CBDC;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
